@@ -19,18 +19,14 @@ public class ChatComponent : MonoBehaviour
     private Text mShowText;
 
     private Font mTextFont;
-    private string mOriginalText;
-    private float mLineTextWidth = 0;
 
     private void Awake()
     {
-        mLineTextWidth = GetComponent<RectTransform>().sizeDelta.x;
         mShowText = GetComponent<Text>();
         RequestCharactersInTexture();
     }
 
     public void SetChatDesc(string desc) {
-        mOriginalText = desc;
         mShowText.text = ReplaceIconIndexValue(desc);
         StartCoroutine(RunIERefreshIconList());
     }

@@ -675,8 +675,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.487, y: 188.497}
-  m_SizeDelta: {x: 677.728, y: 73.108}
+  m_AnchoredPosition: {x: 8.487, y: 216.72}
+  m_SizeDelta: {x: 677.728, y: 129.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161900530
 MonoBehaviour:
@@ -690,7 +690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7db01b790a575d4ca8affe1bb041c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IconClone: {fileID: 0}
 --- !u!114 &1161900531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,13 +717,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8F93\u5165#001\uFF0C#002\u4EE3\u8868\u56FE\u7247"
+  m_Text: "1\u3001\u8F93\u5165#001\uFF0C#002\u4EE3\u8868\u56FE\u7247\n2\u3001\u5BFC\u5165\u56FE\u540E\u7F00\u52A0_TEX\uFF0C\u8FDB\u884C\u683C\u5F0F\u5316"
 --- !u!222 &1161900532
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1001,7 +1000,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9648\u5B9C\u5F90"
+  m_Text: 
 --- !u!222 &1607068194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1022,7 +1021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7db01b790a575d4ca8affe1bb041c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IconClone: {fileID: 0}
 --- !u!1 &1872907011
 GameObject:
   m_ObjectHideFlags: 0
